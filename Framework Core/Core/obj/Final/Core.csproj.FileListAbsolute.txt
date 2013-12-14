@@ -1,0 +1,15 @@
+G:\Projetos\AZURE\Framework Core\Core\bin\Final\EntityFramework.dll
+G:\Projetos\AZURE\Framework Core\Core\bin\Final\Microsoft.Web.WebPages.OAuth.dll
+G:\Projetos\AZURE\Framework Core\Core\bin\Final\System.Web.Http.dll
+G:\Projetos\AZURE\Framework Core\Core\bin\Final\System.Net.Http.dll
+G:\Projetos\AZURE\Framework Core\Core\bin\Final\System.Net.Http.Formatting.dll
+G:\Projetos\AZURE\Framework Core\Core\bin\Final\EntityFramework.xml
+G:\Projetos\AZURE\Framework Core\Core\bin\Final\Microsoft.Web.WebPages.OAuth.xml
+G:\Projetos\AZURE\Framework Core\Core\bin\Final\System.Web.Http.xml
+G:\Projetos\AZURE\Framework Core\Core\bin\Final\System.Net.Http.xml
+G:\Projetos\AZURE\Framework Core\Core\bin\Final\System.Net.Http.Formatting.xml
+G:\Projetos\AZURE\Framework Core\Core\bin\Final\CoreRG.dll.config
+G:\Projetos\AZURE\Framework Core\Core\bin\Final\CoreRG.dll
+G:\Projetos\AZURE\Framework Core\Core\bin\Final\CoreRG.pdb
+G:\Projetos\AZURE\Framework Core\Core\obj\Final\CoreRG.dll
+G:\Projetos\AZURE\Framework Core\Core\obj\Final\CoreRG.pdb

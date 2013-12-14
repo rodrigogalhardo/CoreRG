@@ -1,0 +1,71 @@
+﻿@{
+    ViewBag.Title = "Teste";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<h2>Cadastro</h2>
+
+<label for="nome">Nome</label>
+<input id="nome" name="nome" type="text" data-bind="value: Nome" />
+<label for="telefone">Telefone</label>
+<input id="Telefone" name="telefone" type="text" data-bind="value: Telefone" /><br />
+<label for="email">Email</label>
+<input id="Email" name="email" type="email" data-bind="value: Email" /><br />
+<input type="button" data-bind="click: adicionarContato" value="Adicionar >>" />
+
+<table>
+    <thead>
+        <th>Nome</th>
+        <th>Telefone</th>
+        <th>E-mail</th>
+        <th></th>
+    </thead>
+    <tbody data-bind="foreach: Contatos">
+        <tr>
+            <td>
+                <input type="text" data-bind="value: Nome" /></td>
+            <td>
+                <input type="text" data-bind="value: Email" /></td>
+            <td>
+                <input type="text" data-bind="value: Telefone" /></td>
+            <td><a href="#" data-bind="click: MeuModelo.removerContato">Remover</a></td>
+        </tr>
+    </tbody>
+</table>
+<input type="button" value="Salvar" data-bind="click: salvarContato" />
+
+   @*<script type="text/javascript">
+       var MeuModelo = {
+           Nome: ko.observable(),
+           Telefone: ko.observable(),
+           Email: ko.observable(),
+           Contatos: ko.observableArray([]),
+           adicionarContato: function () {
+               this.Contatos.push({ Nome: this.Nome(), Telefone: this.Telefone(), Email: this.Email() })
+               this.Nome("");
+               this.Telefone("");
+               this.Email("");
+           },
+           removerContato: function (contato) {
+               MeuModelo.Contatos.remove(contato);
+           },
+           salvarContato: function () {
+               var dados = ko.toJS(MeuModelo.Contatos);
+               $.ajax({
+                   type: "POST",
+                   contentType: "application/json",
+                   url: '@Url.Action("SalvarContato","Home")',
+                    data: JSON.stringify({ contatos: dados }),
+                    traditional: true,
+                    success: MeuModelo.sucesso,
+                    error: MeuModelo.falha
+                });
+            },
+            sucesso: function () { alert("Sucesso"); },
+            falha: function () { alert("falha"); }
+        };
+        ko.applyBindings(MeuModelo);
+
+</script>*@

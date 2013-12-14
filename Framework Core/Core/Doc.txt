@@ -1,0 +1,18 @@
+﻿  
+   
+   
+   others..
+   
+        ///public virtual void Delete(T entity)
+        ///{
+        ///    _entities.Set<T>().Remove(entity);
+        ///}
+
+        /// <summary>
+        /// Edita uma entidade, com EntityState.Modified
+        /// </summary>
+        /// <param name="entity"></param>
+        //public virtual void Edit(T entity)
+        //{
+        //    _entities.Entry(entity).State = System.Data.EntityState.Modified;
+        //}

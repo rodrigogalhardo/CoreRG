@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreRG", "CoreRG.csproj", "{22F2FA8D-AF65-488C-984E-6A98EFCF460B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSamplesMVC", "..\TestSamplesMVC\TestSamplesMVC.csproj", "{FF538ACB-BB02-4C07-971A-A313ABFE169C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{E6706A23-5F39-44E6-BC83-C5C563FE0A77}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://rodrigogalhardoazure.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ..\\TestSamplesMVC\\TestSamplesMVC.csproj
+		SccProjectName1 = ../TestSamplesMVC
+		SccLocalPath1 = ..\\TestSamplesMVC
+		SccProjectUniqueName2 = CoreRG.csproj
+		SccLocalPath2 = .
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Final|Any CPU = Final|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22F2FA8D-AF65-488C-984E-6A98EFCF460B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22F2FA8D-AF65-488C-984E-6A98EFCF460B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22F2FA8D-AF65-488C-984E-6A98EFCF460B}.Final|Any CPU.ActiveCfg = Final|Any CPU
+		{22F2FA8D-AF65-488C-984E-6A98EFCF460B}.Final|Any CPU.Build.0 = Final|Any CPU
+		{22F2FA8D-AF65-488C-984E-6A98EFCF460B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22F2FA8D-AF65-488C-984E-6A98EFCF460B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF538ACB-BB02-4C07-971A-A313ABFE169C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF538ACB-BB02-4C07-971A-A313ABFE169C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF538ACB-BB02-4C07-971A-A313ABFE169C}.Final|Any CPU.ActiveCfg = Release|Any CPU
+		{FF538ACB-BB02-4C07-971A-A313ABFE169C}.Final|Any CPU.Build.0 = Release|Any CPU
+		{FF538ACB-BB02-4C07-971A-A313ABFE169C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF538ACB-BB02-4C07-971A-A313ABFE169C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

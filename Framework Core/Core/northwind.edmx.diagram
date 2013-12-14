@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3d2a402666e04b02958e7b72976f707e" Name="Diagram1">
+        <EntityTypeShape EntityType="northwindModel.aspnet_Applications" Width="1.5" PointX="5.75" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="northwindModel.aspnet_Membership" Width="1.5" PointX="12.5" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="northwindModel.aspnet_Roles" Width="1.5" PointX="8" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="northwindModel.aspnet_SchemaVersions" Width="1.5" PointX="4.75" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="northwindModel.AspNet_SqlCacheTablesForChangeNotification" Width="1.5" PointX="6.75" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="northwindModel.aspnet_Users" Width="1.5" PointX="10.25" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="northwindModel.Cadastros" Width="1.5" PointX="8.75" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="northwindModel.Categories" Width="1.5" PointX="0.75" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="northwindModel.Contatos" Width="1.5" PointX="2.75" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="northwindModel.CustomerDemographics" Width="1.5" PointX="1.5" PointY="22.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="northwindModel.Customers" Width="1.5" PointX="0.75" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="northwindModel.Employees" Width="1.5" PointX="0.75" PointY="26.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="northwindModel.Order_Details" Width="1.5" PointX="5.25" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="northwindModel.Orders" Width="1.5" PointX="3" PointY="16.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="northwindModel.Pedidos" Width="1.5" PointX="10.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="northwindModel.PedidosItens" Width="1.5" PointX="10.75" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="northwindModel.Products" Width="1.5" PointX="3" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="northwindModel.Region" Width="1.5" PointX="2.75" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="northwindModel.Shippers" Width="1.5" PointX="0.75" PointY="20.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="northwindModel.ShoppingCart" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="northwindModel.ShoppingCartItens" Width="1.5" PointX="8.25" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="northwindModel.Suppliers" Width="1.5" PointX="0.75" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="northwindModel.Territories" Width="1.5" PointX="6" PointY="18.625" IsExpanded="true" />
+        <AssociationConnector Association="northwindModel.FK__aspnet_Me__Appli__236943A5" ManuallyRouted="false" />
+        <AssociationConnector Association="northwindModel.FK__aspnet_Ro__Appli__25518C17" ManuallyRouted="false" />
+        <AssociationConnector Association="northwindModel.FK__aspnet_Us__Appli__2645B050" ManuallyRouted="false" />
+        <AssociationConnector Association="northwindModel.FK__aspnet_Me__UserI__245D67DE" ManuallyRouted="false" />
+        <AssociationConnector Association="northwindModel.FK_Products_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="northwindModel.FK_Orders_Customers" ManuallyRouted="false" />
+        <AssociationConnector Association="northwindModel.FK_Employees_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="northwindModel.FK_Orders_Employees" ManuallyRouted="false" />
+        <AssociationConnector Association="northwindModel.FK_Order_Details_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="northwindModel.FK_Order_Details_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="northwindModel.FK_Orders_Shippers" ManuallyRouted="false" />
+        <AssociationConnector Association="northwindModel.FK_Products_Suppliers" ManuallyRouted="false" />
+        <AssociationConnector Association="northwindModel.FK_ShoppingCartItens_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="northwindModel.FK_Territories_Region" ManuallyRouted="false" />
+        <AssociationConnector Association="northwindModel.FK_ShoppingCartItens_ShoppingCart" ManuallyRouted="false" />
+        <AssociationConnector Association="northwindModel.aspnet_UsersInRoles" ManuallyRouted="false" />
+        <AssociationConnector Association="northwindModel.CustomerCustomerDemo" ManuallyRouted="false" />
+        <AssociationConnector Association="northwindModel.EmployeeTerritories" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
